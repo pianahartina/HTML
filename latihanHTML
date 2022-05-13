@@ -20,5 +20,14 @@
                <td colspan="2" <center> <label for="oke">Radio 1 </label> <input type="radio" id="oke">
                                         <label for="oke1">Radio 2 </label> <input type="radio" id="oke1">
                                </center>
+               </td>
+             </tr>
+             <tr>
+               <td colspan="2" <center> <label for="oke2">Checkbox 1 </label> <input type="Checkbox" id="oke2">
+                                        <label for="oke3">Checkbox 2 </label> <input type="Checkbox" id="oke3">
+                               </center>
+               </td>
+             </tr>
+             
             
             
