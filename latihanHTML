@@ -28,6 +28,29 @@
                                </center>
                </td>
              </tr>
+             <tr>
+               <td align="right"> <label for="oke4">Combo Box : </label> </td>         
+               <td>
+                   <select>
+                      <option> Option 1</option>
+                      <option> Option 2</option>
+                      <option> Option 3</option>
+                      <option> Option 4</option>
+                   </select>
+               </td>
+             </tr>
+             <tr>
+               <td align="right"> <label for="oke5">Textarea : </label> </td>    
+               <td> <textarea id="oke5"> </textarea></td>
+             </tr>
+             <tr>
+                <td colspan="2"><center><button type="submit">Button</center></button></td>
+             </tr>
+         </table>
+      </form>
+</body>
+</html>
+             
              
             
             
