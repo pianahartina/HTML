@@ -1,0 +1,24 @@
+<!--Dasar-Dasar HTMl-->
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Membuat Form Tabel menggunakan HTML </title>
+</head>
+<body>
+    <form>
+        <table cellspacing="0" cellpadding="5">
+            <tr>
+               <td align="right"> <label for="Text">Text :</label> </td>
+               <td> <input type="Text" id="Text"> </td>
+            </tr>
+            <tr>
+               <td align="right"> <label for="Password">Password :</label> </td>
+               <td> <input type="Password" id="Password"> </td>
+            </tr>
+            <tr>
+               <td colspan="2" <center> <label for="oke">Radio 1 </label> <input type="radio" id="oke">
+                                        <label for="oke1">Radio 2 </label> <input type="radio" id="oke1">
+                               </center>
+            
+            
