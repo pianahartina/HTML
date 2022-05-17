@@ -1,0 +1,93 @@
+<!-- Dimensi dan Flow CSS -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dimensi dan Overlow</title><!--dimensi hanya da 2 yaitu width dan height-->
+	
+	<!--<style>
+		div {
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+		}
+
+	</style> -->
+
+	<!--<style>
+		.satu {
+			width: 200px;
+			height: 200px;
+			background-color: green;
+		}
+		.dua {
+			width: 100%;
+			background-color: aqua;
+
+		}
+	</style>-->
+
+	<!--<style>
+		div {
+			width: 200px;
+			background-color: pink; 
+		}
+	</style> (hal ini dilakukan maka height atau tinggi background warna akan absolute atau menyesuiakan dengan tulisan)-->
+
+	<!--<style>
+		div	{
+			width: 200px;
+			background-color: pink;
+			height: 100px; 
+			overflow: auto;
+		}
+	</style> hasilnya akan , tinggi warna background akan sesuai pada angka yang diketik namun jika ingin ditampilkan width dan height maka gunakan css overflow (overflow auto digunakan jika konten cukup banyak sehingga akan menampilkan scrol namun jika konten sedikit maka scrol tidak akan muncul-->
+
+	<!--<style>
+		div	{
+			width: 200px;
+			background-color: pink;
+			height: 100px; 
+			overflow: hidden;
+		}
+	</style> hidden , konten diluar parent akan disembunyikan-->
+
+	<style>
+		div	{
+			width: 200px;
+			background-color: pink;
+			height: 100px; 
+			overflow: scroll;
+		}
+	</style><!-- tetap ada scroll walpun konten sedikit-->
+
+<body>
+	<!--<div>Piana Hartina</div>-->
+	<!--<div class="satu">
+		<div class="dua"> Piana Hartina </div>
+	</div>-->
+
+	<div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+	</div>
+
+</body>
+</html>
