@@ -1,0 +1,100 @@
+<!--Display CSS-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CSS Display</title>
+<!--
+<style>
+	.navigasi {
+		background-color: red;
+	}
+	.main {
+		background-color: green;
+	}
+	.main span{
+		background-color: yellow;
+	}
+</style>
+-->
+<!--<style>
+	a {background-color: red;
+		width: 200px;
+		height: 200px;
+		Display:inline-block; 
+	}
+
+	img	{width: 200px;
+		height: 200px;}  
+</style> hanya gambar yang bisa di atur tinggi dan lebarnya pada tag <div> , jika bagian a ingin diatur tinggi dan lebarnya maka tambahkan display:inline-block-->
+
+<!--<style>
+	a {background-color: red;	}
+	h1, h2, p {
+		background-color: lightgreen;
+	}
+
+	img	{width: 200px;
+		height: 200px;}
+
+	.main { width: 600px;
+	background-color: lightgreen; }
+
+	.main h2 {
+		background-color: pink;
+	}
+</style> -->
+<!--<style>
+	img {display: none;}
+</style>-->
+
+<style>
+	.navigasi li{
+		display: inline;
+	}
+</style><!--digunakan jika ingin mengubah default block menjadi inline yaitu pengubah urutan elemen li yang tadinya vertikal (kebawah)menjadi horizontal (kesamping)-->
+
+</head>
+<body>
+	<div class="header">
+		<h1>Selamat Datang di Epic Flawless</h1>
+	</div>
+	
+	<div class="navigasi">
+		<h2>Daftar Link</h2>
+		<ul>
+			<li><a href="#">Link 1</a></li>
+			<li><a href="#">Link 2</a></li>
+			<li><a href="#">Link 3</a></li>
+			<li><a href="#">Link 4</a></li>
+			<li><a href="#">Link 5</a></li>
+		</ul>		
+
+	</div><!--hasil dari penambahan <a> Link5 yaitu <div> default yaitu inline otomatis akan ada di baris yang sama dengan link1 sd link4, jika default block maka otomatis akan kebawah tulisan-->
+	
+	<div class="main">
+		<h2>Epic Flawless</h2>
+		<h2>Epic Flawless2</h2><!--ditambah untuk memperlihatkan hasil dari perilaku <div> default block-->
+		<img src="Tulips.jpg">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure <span>dolor in reprehenderit in voluptate</span> velit esse <!--<span> biasanya digunakan pada kalimat-->
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div><!--mengelompokkan bagian utama "main"-->
+	
+	<div class="copyright">
+		<p> Copyright 2015. Epic Flawless.</p><!--tidak perlu menggunakan class di p-->
+	</div>
+	
+
+</body>
+</html>
