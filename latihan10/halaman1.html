@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form</title> <!--untuk membuat form, contohnya pada halaman login facebook ada bagian login dan bagian mendaftar (<form></form>)-->
+</head>
+<body>
+
+<form>
+	<label for="username">username : </label> <!--diberikan label untuk memberi nama kotak tersebut (sehingga html akan tahu bahwa label yang kita buat itu milik si input atau sript dibawahnya) dan untuk for harus sama dengan id-->
+	<input type="text" id="username"> <!--hasilnya berbentuk form kotak isian yang ditulis dengan text (<input type="text">)-->
+		<br>
+
+	<label for="password">password :</label>
+	<input type="password" id="password"> <!--beda text dan password pada input type adalah jika password maka akan otomatis disembunyikan berupa lingkaran-lingkaran hitam dan disembunyikan bukan berati diamankan karena ini belum ada enskripnya (keamanan)-->
+		<br>
+<!--
+	<input type="radio" id="pria"> <label for="pria">pria</label>
+	<input type="radio" id="wanita"> <label for="wanita">wanita</label>
+	dari listing diatas maka hasilnya akan dapat diklik 22nya yaitu pria dan wanitanya dan itu masih kurang atribut lagi yaitu separti listing dibawah berikut-->
+
+	<input type="radio" id="pria" name="jeniskelamin"> <label for="pria">pria</label> <!--radio button digunakan untuk hanya memilih salah satu pilihan saja-->
+	<input type="radio" id="wanita" name="jeniskelamin"> <label for="wanita">wanita</label>
+	<!--dari listing diatas maka hasilnya akan dapat diklik salah satunya saja yaitu pria atau wanita-->
+		<br>
+
+	<input type="checkbox" id="menyanyi"> <label for="menyanyi">menyanyi</label> <!--type checkbox digunakan untuk memilih pilihan lebih dari satu pilihan-->
+	<input type="checkbox" id="olahraga"> <label for="olahraga">olahraga</label>
+	<input type="checkbox" id="belajar"> <label for="belajar">belajar</label>
+	<input type="checkbox" id="membaca"> <label for="membaca">membaca</label>
+		<br><br>
+
+	<!--<input type="submit" value="kirim"> 
+		untuk membuat tombol (mengirim data) namun tidak disarankan dibuat di tag input namun di tag button-->
+
+	<select> <!-- jika ada selct maka ada option, ini dibuat untuk membuat combo box berupa pilihan-->
+		<option>bandung</option>
+		<option>lampung</option>
+		<option>jakarta</option>
+	</select>
+		<br><br><br><br><br>
+	<label for="komentar">isikan komentar</label>
+		<br>
+	<textarea id="komentar"></textarea>  <!--hal ini untukmembuat kotak isian menjadi lebih besar sehingga kotak mampu memuat tulisan yang banyak-->
+		<br>
+	<button type="submit">kirim!</button> <!--untuk membuat tombol (mengirim data) yang tepat-->
+		<br>
+
+
+</form>
+
+<!--note : tips tekan ctrl tahan untuk membuat kursor sebanyak yang diinginkan / melakukan hal yang diingin secara bersamaan pada kata yang diinginkan atau diseleksi
+	tips tekan ctrl + D untuk mengganti beberapa kata yang sama persis secara bersamaan-->
+
+</body>
+</html>
